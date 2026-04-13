@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="820" viewBox="0 0 680 820" role="img">
+  <title>AS-CNPJ logos</title>
+  <desc>Variações de logo para o projeto AS-CNPJ baseadas na paleta visual do site oficial</desc>
+
+  <defs>
+    <linearGradient id="grad-badge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#FB923C"/>
+    </linearGradient>
+    <linearGradient id="grad-text" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="55%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#84A870"/>
+    </linearGradient>
+    <linearGradient id="grad-dark-badge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EA6A0A"/>
+      <stop offset="100%" stop-color="#F97316"/>
+    </linearGradient>
+  </defs>
+
+  <!-- VERSÃO PRINCIPAL -->
+  <text x="40" y="48" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#888780" letter-spacing="1.5">VERSÃO PRINCIPAL</text>
+
+  <rect x="40" y="64" width="600" height="160" rx="16" fill="#F5F4EE" stroke="#E0DED4" stroke-width="0.5"/>
+  <rect x="76" y="104" width="56" height="56" rx="14" fill="url(#grad-badge)"/>
+  <text x="104" y="139" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="white" text-anchor="middle" letter-spacing="-0.5">AS</text>
+  <text x="148" y="132" font-family="system-ui, sans-serif" font-size="32" font-weight="800" fill="url(#grad-text)" letter-spacing="-1">AS-CNPJ</text>
+  <text x="148" y="158" font-family="system-ui, sans-serif" font-size="12" font-weight="400" fill="#888780" letter-spacing="0.5">bibliotecas para CNPJ alfanumérico</text>
+
+  <!-- VERSÃO COMPACTA -->
+  <text x="40" y="268" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#888780" letter-spacing="1.5">VERSÃO COMPACTA</text>
+
+  <rect x="40" y="284" width="280" height="72" rx="12" fill="#F5F4EE" stroke="#E0DED4" stroke-width="0.5"/>
+  <rect x="60" y="300" width="36" height="36" rx="9" fill="url(#grad-badge)"/>
+  <text x="78" y="324" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="white" text-anchor="middle">AS</text>
+  <text x="108" y="325" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#1C1917" letter-spacing="-0.5">AS-CNPJ</text>
+
+  <rect x="360" y="284" width="280" height="72" rx="12" fill="#1C1917" stroke="#2C2C2A" stroke-width="0.5"/>
+  <rect x="380" y="300" width="36" height="36" rx="9" fill="url(#grad-badge)"/>
+  <text x="398" y="324" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="white" text-anchor="middle">AS</text>
+  <text x="428" y="325" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="white" letter-spacing="-0.5">AS-CNPJ</text>
+
+  <!-- ÍCONE / FAVICON -->
+  <text x="40" y="408" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#888780" letter-spacing="1.5">ÍCONE / FAVICON</text>
+
+  <rect x="40" y="424" width="64" height="64" rx="16" fill="url(#grad-badge)"/>
+  <text x="72" y="465" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="white" text-anchor="middle" letter-spacing="-1">AS</text>
+
+  <rect x="124" y="432" width="48" height="48" rx="12" fill="url(#grad-badge)"/>
+  <text x="148" y="463" font-family="system-ui, sans-serif" font-size="17" font-weight="800" fill="white" text-anchor="middle" letter-spacing="-0.5">AS</text>
+
+  <rect x="192" y="440" width="32" height="32" rx="8" fill="url(#grad-badge)"/>
+  <text x="208" y="462" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="white" text-anchor="middle">AS</text>
+
+  <rect x="244" y="444" width="24" height="24" rx="6" fill="url(#grad-badge)"/>
+  <text x="256" y="461" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="white" text-anchor="middle">AS</text>
+
+  <rect x="288" y="448" width="16" height="16" rx="4" fill="url(#grad-badge)"/>
+  <text x="296" y="461" font-family="system-ui, sans-serif" font-size="6.5" font-weight="800" fill="white" text-anchor="middle">AS</text>
+
+  <text x="72" y="502" font-family="system-ui, sans-serif" font-size="10" fill="#B4B2A9" text-anchor="middle">64px</text>
+  <text x="148" y="502" font-family="system-ui, sans-serif" font-size="10" fill="#B4B2A9" text-anchor="middle">48px</text>
+  <text x="208" y="502" font-family="system-ui, sans-serif" font-size="10" fill="#B4B2A9" text-anchor="middle">32px</text>
+  <text x="256" y="502" font-family="system-ui, sans-serif" font-size="10" fill="#B4B2A9" text-anchor="middle">24px</text>
+  <text x="296" y="502" font-family="system-ui, sans-serif" font-size="10" fill="#B4B2A9" text-anchor="middle">16px</text>
+
+  <!-- BADGE NPM / GITHUB -->
+  <text x="40" y="548" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#888780" letter-spacing="1.5">BADGE NPM / GITHUB</text>
+
+  <rect x="40" y="564" width="148" height="32" rx="8" fill="#FFF7ED" stroke="#F97316" stroke-width="1"/>
+  <rect x="40" y="564" width="44" height="32" rx="8" fill="#F97316"/>
+  <rect x="64" y="564" width="20" height="32" fill="#F97316"/>
+  <text x="62" y="585" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">AS</text>
+  <text x="114" y="585" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#C2410C" text-anchor="middle">@ascnpj/core</text>
+
+  <rect x="208" y="564" width="148" height="32" rx="8" fill="#1C1917" stroke="#444441" stroke-width="0.5"/>
+  <rect x="208" y="564" width="44" height="32" rx="8" fill="url(#grad-badge)"/>
+  <rect x="232" y="564" width="20" height="32" fill="url(#grad-badge)"/>
+  <text x="230" y="585" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">AS</text>
+  <text x="282" y="585" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#D1D5DB" text-anchor="middle">@ascnpj/core</text>
+
+  <!-- VARIANTE ALFANUMÉRICO DARK -->
+  <text x="40" y="640" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#888780" letter-spacing="1.5">VARIANTE ALFANUMÉRICO</text>
+
+  <rect x="40" y="656" width="600" height="130" rx="16" fill="#1C1917" stroke="#2C2C2A" stroke-width="0.5"/>
+  <rect x="72" y="688" width="52" height="52" rx="13" fill="url(#grad-badge)"/>
+  <text x="98" y="721" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="white" text-anchor="middle" letter-spacing="-0.5">AS</text>
+  <text x="140" y="710" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="white" letter-spacing="-0.5">AS-</text>
+  <text x="188" y="710" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="#F97316" letter-spacing="-0.5">CNPJ</text>
+  <text x="140" y="730" font-family="system-ui, sans-serif" font-size="10.5" font-weight="400" fill="#84A870" letter-spacing="2">ALFANUMÉRICO · AUDITÁVEL · ZERO DEPS</text>
+</svg>

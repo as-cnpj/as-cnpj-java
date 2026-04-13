@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>io.ascnpj</groupId>
+  <artifactId>as-cnpj-java</artifactId>
+  <version>0.1.0-SNAPSHOT</version>
+  <name>AS-CNPJ Java</name>
+  <description>Author-led Java library for numeric and alphanumeric CNPJ validation, normalization, formatting, and batch validation.</description>
+  <url>https://github.com/as-cnpj/as-cnpj-java</url>
+  <inceptionYear>2026</inceptionYear>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>0moura</id>
+      <name>0moura</name>
+      <email>ascnpj@0moura.io</email>
+    </developer>
+  </developers>
+
+  <scm>
+    <url>https://github.com/as-cnpj/as-cnpj-java</url>
+    <connection>scm:git:https://github.com/as-cnpj/as-cnpj-java.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/as-cnpj/as-cnpj-java.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+  <properties>
+    <maven.compiler.release>17</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+</project>
+

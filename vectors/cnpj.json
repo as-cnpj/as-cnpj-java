@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "version": 2,
+    "schema": "vectors/cnpj.schema.json",
+    "source": "Receita Federal e vetores internos do ecossistema AS-CNPJ",
+    "official_example_base": "12ABC34501DE",
+    "official_example_check_digits": "35",
+    "updated_at": "2026-04-07"
+  },
+  "valid": [
+    {
+      "id": "official-alpha-masked",
+      "value": "12.ABC.345/01DE-35",
+      "normalized": "12ABC34501DE35",
+      "formatted": "12.ABC.345/01DE-35"
+    },
+    {
+      "id": "official-alpha-lower-unmasked",
+      "value": "12abc34501de35",
+      "normalized": "12ABC34501DE35",
+      "formatted": "12.ABC.345/01DE-35"
+    },
+    {
+      "id": "legacy-numeric-masked",
+      "value": "11.222.333/0001-81",
+      "normalized": "11222333000181",
+      "formatted": "11.222.333/0001-81"
+    },
+    {
+      "id": "legacy-numeric-unmasked",
+      "value": "11222333000181",
+      "normalized": "11222333000181",
+      "formatted": "11.222.333/0001-81"
+    }
+  ],
+  "invalid": [
+    {
+      "id": "invalid-alpha-dv",
+      "value": "12.ABC.345/01DE-36",
+      "reason": "DV incorreto: esperado 35, informado 36."
+    },
+    {
+      "id": "invalid-numeric-dv",
+      "value": "11.222.333/0001-80",
+      "reason": "DV incorreto: esperado 81, informado 80."
+    },
+    {
+      "id": "repeated-digits",
+      "value": "11.111.111/1111-11",
+      "reason": "Repeticao trivial: todos os caracteres iguais."
+    },
+    {
+      "id": "empty",
+      "value": "",
+      "reason": "Entrada vazia."
+    },
+    {
+      "id": "too-short",
+      "value": "123",
+      "reason": "Comprimento insuficiente: 3 caracteres, minimo 14."
+    }
+  ]
+}
+
